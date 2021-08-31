@@ -16,7 +16,7 @@ node
     
   stage('CheckOutCode') 
   {
-    git branch: 'development', credentialsId: '4cb6f179-418b-4bf1-b7fa-facdff7a39d5', url: 'https://github.com/jagadeesh1699/maven-web-application.git'
+    git branch: 'development', credentialsId: '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', url: 'https://github.com/jagadeesh1699/maven-web-application.git'
   }
    
   
@@ -49,8 +49,8 @@ node
    emailext body: '''Build is over
 
    Regards,
-   Mithun Technologies,
-   9980923226.''', subject: 'Build is over', to: 'devopstrainingblr@gmail.com,bhaskar0504@gmail.com'
+   Jaggu Technologies,
+   998092326.''', subject: 'Build is over', to: 'jagadeeshkumar760@gmail.com'
    }
     
     */
